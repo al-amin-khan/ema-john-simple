@@ -1,5 +1,6 @@
 import React from 'react';
 import './Shop.css'
+import fakeData from '../../fakeData';
 
 const Shop = ({}) => (
   <div>
