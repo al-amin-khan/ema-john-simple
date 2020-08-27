@@ -10,3 +10,11 @@
   font-weight: 400;
   padding-left: 15px;
 }
+
+.cart-btn{
+  background-color: goldenrod;
+  height: 30px;
+  width: 150px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
