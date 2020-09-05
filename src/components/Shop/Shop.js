@@ -22,7 +22,11 @@ const Shop = ({}) => {
       <div className='product-container'>
         <ul>
           {
-            products.map(product => <Product product={product} addProduct = {handleAddProduct}></Product>)
+            products.map(product =>
+              <Product
+                showAddToCart={true}
+                product={product}
+                addProduct = {handleAddProduct}></Product>)
           }
         </ul>
       </div>
